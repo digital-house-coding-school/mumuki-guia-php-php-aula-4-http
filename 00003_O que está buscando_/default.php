@@ -1,0 +1,3 @@
+function buscador() {
+  // Escreva sua solução aqui...
+}

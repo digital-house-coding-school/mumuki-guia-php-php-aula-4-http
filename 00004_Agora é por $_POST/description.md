@@ -9,6 +9,6 @@ O usuário preenche um formulário em HTML com o seguinte formato:
 
 Sua função `bemVindo()` deve pegar as informações do formulário e retornar uma string que diz:
 
-**Bem-vindo, NOMEUSUARIO. Foi registrado com o email EMAIL**
+**Bem-vindo, NOMEUSUARIO. Foi registrado com o e-mail EMAIL**
 
 Neste texto, NOMEUSUARIO e EMAIL devem ser substituídos pelas informações fornecidas pelo usuário no formulário.

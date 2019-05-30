@@ -5,8 +5,8 @@
     ];
 
     $resultado = $this->saudacoes();
-    $this->assertTrue(is_string($resultado), "Sua função não está devolvendo uma string...");
-    $this->assertTrue(strtolower($resultado) == "oi walter white", "Esse resultado não é o esperado quando a URL é: http://digitalcommerce.com/saudacao.php?nome=Walter&sobrenome=White. Era esperado 'Produto 32' e obtive '$resultado'");
+    $this->assertTrue(is_string($resultado), "Sua função não está retornando uma string...");
+    $this->assertTrue(strtolower($resultado) == "oi walter white", "Esse resultado não é o esperado quando a URL é: http://digitalcommerce.com/saudacao.php?nome=Walter&sobrenome=White. Era esperado 'Oi Walter White' e obtive '$resultado'");
   }
 
   public function testJessePinkman(): void {
@@ -16,8 +16,8 @@
     ];
 
     $resultado = $this->saudacoes();
-    $this->assertTrue(is_string($resultado), "Sua função não está devolvendo uma string...");
-    $this->assertTrue(strtolower($resultado) == "oi walter white", "Esse resultado não é o esperado quando a URL é: http://digitalcommerce.com/saudacao.php?nome=Walter&sobrenome=White. Era esperado 'Produto 32' e obtive '$resultado'");
+    $this->assertTrue(is_string($resultado), "Sua função não está retornando uma string...");
+    $this->assertTrue(strtolower($resultado) == "oi walter white", "Esse resultado não é o esperado quando a URL é: http://digitalcommerce.com/saudacao.php?nome=Jesse&sobrenome=Pinkman. Era esperado 'Oi Jesse Pinkman' e obtive '$resultado'");
   }
 
   public /*...content...*/

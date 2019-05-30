@@ -6,7 +6,7 @@ public function testThomaz(): void {
 
     $resultado = $this->bemVindo();
     $this->assertTrue(is_string($resultado), "Sua função não está retornando uma string...");
-    $this->assertTrue(strtolower($resultado) == "bem-vindo thomazstaziak. foi registrado com o e-mail thomaz@digitalhouse.com", "O resultado está incorreto. Era esperado 'bem vindo thomaz. foi registrado com o e-mail thomaz@digitalhouse.com' e foi obtido '$resultado'");
+    $this->assertTrue(strtolower($resultado) == "bem-vindo thomazstaziak. foi registrado com o e-mail thomaz@digitalhouse.com", "O resultado está incorreto. Era esperado 'bem-vindo thomaz. foi registrado com o e-mail thomaz@digitalhouse.com' e foi obtido '$resultado'");
   }
 
   public function testVictor(): void {
@@ -17,7 +17,7 @@ public function testThomaz(): void {
 
   $resultado = $this->bemVindo();
   $this->assertTrue(is_string($resultado), "Sua função não está retornando uma string...");
-  $this->assertTrue(strtolower($resultado) == "bem-vindo victortorres. foi registrado com o e-mail victor@digitalhouse.com", "O resultado está incorreto. Era esperado 'bem vindo victortorres. foi registrado com o e-mail victor@digitalhouse.com' e foi obtido '$resultado'");
+  $this->assertTrue(strtolower($resultado) == "bem-vindo victortorres. foi registrado com o e-mail victor@digitalhouse.com", "O resultado está incorreto. Era esperado 'bem-vindo victortorres. foi registrado com o e-mail victor@digitalhouse.com' e foi obtido '$resultado'");
   }
 
   public /*...content...*/

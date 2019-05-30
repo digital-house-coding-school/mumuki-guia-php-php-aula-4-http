@@ -11,7 +11,7 @@ Mas o nome de usuário é opcional!
 
 Sua função `bemVindo()` deve pegar as informações do formulário e retornar uma string que diz:
 
-**Bem-vindo, NOMEUSUARIO. Foi registrado com o e-mail EMAIL**
+**Bem-vindo NOMEUSUARIO. Foi registrado com o e-mail EMAIL**
 
 Se o usuário não digitar o **NOMEUSUARIO**, a função deve simplesmente retornar
 

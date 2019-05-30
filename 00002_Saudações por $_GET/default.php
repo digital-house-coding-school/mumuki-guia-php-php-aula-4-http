@@ -1,0 +1,3 @@
+function saudacoes() {
+  // Escreva sua solução aqui...
+}

@@ -19,4 +19,4 @@ Se o usuário não digitar o **NOMEUSUARIO**, a função deve simplesmente retor
 
 Neste texto, NOMEUSUARIO e EMAIL devem ser substituídos pelas informações fornecidas pelo usuário no formulário.
 
-Se você não tem certeza de como fazer, não hesite em fazer `var_dump($ _ POST); exit;` para ver o formato de como a informação chega.
+Se você não tem certeza de como fazer, não hesite em fazer `var_dump($_POST); exit;` para ver o formato de como a informação chega.

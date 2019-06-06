@@ -1,4 +1,4 @@
-public function testThomaz(): void {
+public function testNome(): void {
   $_POST = [
     "email" => "thomaz@digitalhouse.com",
     "usuario" => "thomazstaziak"
@@ -9,7 +9,7 @@ public function testThomaz(): void {
   $this->assertTrue(strtolower($resultado) == "bem-vindo thomazstaziak. foi registrado com o e-mail thomaz@digitalhouse.com", "O resultado está incorreto. Era esperado 'Bem-vindo thomazstaziak. Foi registrado com o e-mail thomaz@digitalhouse.com' e foi obtido '$resultado'");
 }
 
-  public function testVictor(): void {
+  public function testNome1(): void {
     $_POST = [
       "email" => "victor@digitalhouse.com",
     ];

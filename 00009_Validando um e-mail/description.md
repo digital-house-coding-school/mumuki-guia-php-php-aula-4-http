@@ -4,7 +4,7 @@ O formulário que iremos receber via POST tem esse input:
   <input type="text" name="email">
 ```
 
-Sua tarefa é concluir a função `validateEmail` que deve se comportar do seguinte modo:
+Sua tarefa é concluir a função `validaEmail` que deve se comportar do seguinte modo:
 
 1. Se o campo estiver vazio, você deve retornar o texto "O campo está vazio"
 2. Se o campo estiver completo, mas não for um e-mail, você deve retornar o texto "O campo não é um e-mail"

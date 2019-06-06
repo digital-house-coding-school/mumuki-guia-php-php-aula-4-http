@@ -1,3 +1,3 @@
-function validaNome($nome) {
+function validaNome() {
   // Escreva sua solução aqui...
 }

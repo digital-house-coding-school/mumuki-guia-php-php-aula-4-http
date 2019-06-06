@@ -3,7 +3,7 @@ public function testNomeCompleto(): void {
       "nome" => "Thomaz",
     ];
 
-    $resultado = $this->validarNome();
+    $resultado = $this->validaNome();
     $this->assertTrue(is_bool($resultado), "Sua função não está retornando um booleano :(");
 
     $this->assertTrue($resultado, 'Sua função está retornando false, mas deveria retornar true');
@@ -14,7 +14,7 @@ public function testNomeCompleto(): void {
       "nome" => "",
     ];
 
-    $resultado = $this->validarNome();
+    $resultado = $this->validaNome();
     $this->assertTrue(is_bool($resultado), "Sua função não está retornando um booleano :(");
 
     $this->assertFalse($resultado, 'Sua função está retornando true, mas deveria retornar false');

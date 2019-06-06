@@ -1,0 +1,3 @@
+function validaUsuario() {
+  // Escreva sua solução aqui...
+}

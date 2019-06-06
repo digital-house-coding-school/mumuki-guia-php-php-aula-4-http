@@ -22,7 +22,7 @@ public function testValidaUsuario(): void {
       "usuario" => "staziak",
     ];
 
-    $resultado = $this->validarUsername();
+    $resultado = $this->validaUsuario();
     $this->assertTrue(is_bool($resultado), "Sua função não está retornando um booleano :(");
 
     $this->assertFalse($resultado, 'Sua função está retornando true, mas deveria retornar false');

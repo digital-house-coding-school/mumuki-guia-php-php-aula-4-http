@@ -1,0 +1,3 @@
+function validaNome($nome) {
+  // Escreva sua solução aqui...
+}

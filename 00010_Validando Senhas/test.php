@@ -24,7 +24,7 @@ public function testSenhaVazias(): void {
     $this->assertTrue(strtolower($resultado) == "a senha está vazia", "A função está falhando com o campo senha vazio. Foi recebido '$resultado' e era esperado 'A senha está vazia'");
   }
 
-  public function testSinConfirmar(): void {
+  public function testSemConfirmar(): void {
     $_POST = [
       "senha" => "123",
       "confirmaSenha" => "",

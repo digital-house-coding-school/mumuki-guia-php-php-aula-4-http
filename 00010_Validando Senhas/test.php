@@ -34,7 +34,7 @@ public function testSenhaVazias(): void {
 
     $this->assertTrue(is_string($resultado), "Sua função não está retornando uma string :(");
 
-    $this->assertTrue(strtolower($resultado) == "o campo confirmar senha está vazia", "A função está falhando com o campo confirmar senha vazio. Foi recebido '$resultado' e era esperado 'O campo confirmar senha está vazia'");
+    $this->assertTrue(strtolower($resultado) == "o campo confirmar senha está vazio", "A função está falhando com o campo confirmar senha vazio. Foi recebido '$resultado' e era esperado 'O campo confirmar senha está vazio'");
   }
 
   public function testSenhasDivergentes(): void {

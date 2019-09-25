@@ -15,7 +15,7 @@ Sua função `bemVindo()` deve pegar as informações do formulário e retornar 
 
 Se o usuário não digitar o **NOMEUSUARIO**, a função deve simplesmente retornar
 
-**E-mail de boas-vindas**
+**e-mail de boas vindas**
 
 Neste texto, NOMEUSUARIO e EMAIL devem ser substituídos pelas informações fornecidas pelo usuário no formulário.
 
